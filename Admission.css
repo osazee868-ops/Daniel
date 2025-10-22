@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+	background-color: rgb(255, 255, 255);
+	height: 75px;
+	border-bottom: 2px solid lightgray;
+	margin-bottom: 0px;
+}
+.nav-bar-logo{
+	margin-top: 5px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 2px;
+	vertical-align: top;
+}
+
+.nav-bar-text{
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.nav-bar-title{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: Arial;
+	width: 200px;
+	margin-top: 10px;
+    transition: all;
+}
+.nav-bar-text:hover{
+    cursor: pointer;
+    transition: ease-in 1s ;
+    background-color: rgb(233, 70, 70);
+    border-radius: 20px;
+}
+.nav-bar-buttons{
+	display: inline-block;
+    float: right;
+	margin-left: 0px;
+	height: 100%;
+    
+}
+.nav-bar-button{
+	background-color: rgb(255, 255, 255);
+	border: none;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 20px;
+	transition: border-bottom 0.15s;
+	transition: background-color 0.1s;
+	height: 100%;
+	cursor: pointer;
+	margin-left: 20px;
+}
+.nav-bar-button:hover{
+    background-color: rgb(255, 249, 249);
+      border-bottom: 5px solid blue;
+  }
+
+  .nav-bar-button:active{
+	background-color: lightgray;
+}
+
+.shorter{
+    width: 300px;
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.shorter::placeholder{
+    font-size: 15px;
+}
+
+input{
+    font-size: 15px;
+    width: 610px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+label{
+    font-size: 18px;
+}
+
+.submit{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 2bd0px;
+}
+
+.e-mail{
+    width: 200px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 2bd0px;
+    transition: all;
+}
+.e-mail:hover{
+    color:  black;
+    background-color: lightblue;
+   
+}
+.submit:hover{
+    color:  black;
+    background-color: lightblue;
+    transition: ease-in-out;
+   
+}
+.ad-h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.note{
+    font-family:Arial, Helvetica, sans-serif;
+    color: red;
+}
+.label{
+    font-family: fantasy;
+}
+.gender-drop-down{
+    width: 610px;
+    height: 40px;
+}
+.class-drop-down{
+    width: 610px;
+    height: 40px;
+}

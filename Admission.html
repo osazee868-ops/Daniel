@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Admission.css">
+</head>
+<body>
+        <header>
+        <img src="./../images/logo.png" alt="" class="nav-bar-logo">
+        <div class="nav-bar-text">
+            <p class="nav-bar-title">ACTIVE BRAINS ACADEMY</p>
+        </div>
+        <div class="nav-bar-buttons">
+          <a href="home.html"><button class="nav-bar-button">Home</button></a>  
+           <a href="about us.html"><button class="nav-bar-button">About Us</button></a> 
+           <a href="Admission.html"><button class="nav-bar-button">Admission</button></a> 
+           <a href="event.html"><button class="nav-bar-button">Event</button></a>
+        </header>
+
+    <form method="post" action="http://192.168.1.2/devserver/create/forms/admission/">
+    <div class="form">
+        <h1 style="text-align: center;" class="ad-h1">Student Admission Form</h1>
+        <h3 class="note">PLEASE NOTE: All Information filed must be accurate</h3>
+
+        <label>Name</label><br>
+        <input type="text" placeholder="First" class="shorter" name="firstname">
+        <input type="text" placeholder="Last" class="shorter" name="lastname"><br><br>
+
+        <label>Phone number</label><br>
+        <input type="text" placeholder="Phone number" name="num"><br><br>
+
+        <label for="">House Address</label><br>
+        <input type="text" placeholder="Address" name="address"><br><br>
+        
+        <label>Gender</label><br>
+        <select class="gender-drop-down" name="gender">
+            <option>Male</option>
+            <option>Female</option>
+        </select><br><br>
+
+        <label for="">Date Of Birth</label><br>
+        <input type="date" placeholder="" name="dob"><br><br>
+
+        <label for="">Class</label><br>
+        <select class="class-drop-down" name="class">
+            <option>CRECHE</option>
+            <option>NURSERY</option>
+            <option>PRIMARY</option>
+            <option>SECONDARY</option>
+        </select><br><br>
+
+        <label for="">Father's Name</label><br>
+        <input type="text" placeholder="First" class="shorter" name="father_name">
+        <input type="text" placeholder="Last" class="shorter" name="father_name"><br><br>
+
+        <label for="">Mother's Name</label><br>
+        <input type="text" placeholder="First" class="shorter" name="mother_name">
+        <input type="text" placeholder="Last" class="shorter" name="mother_name"><br><br>
+
+        <label for="">Father's Occupation</label><br>
+        <input type="text" placeholder="Father's Occupation" name="father_occupation"><br><br>
+
+        <label for="">Mother's Occupation</label><br>
+        <input type="text" placeholder="Mother's Occupation" name="mother_occupation"><br><br>
+
+        <label for="">Father's Phone Number</label><br>
+        <input type="text" placeholder="Phone Number" name="father_num"><br><br>
+
+        <label for="">Mother's Phone Number</label><br>
+        <input type="text" placeholder="Phone Number" name="mother_num"><br><br>
+
+        <label for="">Father's Email Address</label><br>
+        <input type="text" placeholder="Email Address" name="father_email"><br><br>
+
+        <label for="">Mother's Email Address</label><br>
+        <input type="text" placeholder="Email Address" name="mother_email"><br>
+
+        <button class="submit">Submit</button>
+        <a href="#"><button class="e-mail">send in an e-mail</button></a>
+    </div>
+    </form>
+    <p>All and any Information colleted are stored in the schools classified database.</p>
+</body>
+</html>
