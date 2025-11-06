@@ -62,3 +62,9 @@ header{
   .nav-bar-button:active{
 	background-color: lightgray;
 }
+.head{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: blue;
+	
+}
